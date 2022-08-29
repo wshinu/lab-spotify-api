@@ -1,3 +1,5 @@
+![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
+
 # Lab | Extending the internal databases with audio features
 
 At this point, you have the **hot_songs** and the **not_hot_songs** databases. However, you don't have any acoustic information about the songs. 
