@@ -3,7 +3,7 @@
 # Lab | Extending the internal databases with audio features
 
 At this point, you have the **hot_songs** and the **not_hot_songs** databases. However, you don't have any acoustic information about the songs. 
-The purpose of this lab is to use Spotify's API to extend both databases with this information for each song included. 
+The purpose of this lab is to use Spotify's API to extend both databases with this information for each song included to use this information later.
 
 # Instructions
 
