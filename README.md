@@ -15,7 +15,7 @@ Keep in mind, that a given song might not be available on Spotify's API (make su
 * Create a function **get_audio_features(list_of_songs)** to obtain the audio features of a given list of songs (the content of list_of_songs can be the href/id/uri). 
 
 Be careful to not exceed the number of calls to the API otherwise, you will be banned and you will have to wait several hours before launching a new request [see here](https://developer.spotify.com/documentation/web-api/guides/rate-limits/).
-A good strategy to prevent this problem is to split the list of song id's in "chunks" of 50 songs id's and wait 20 seconds before asking for the audio features of the next "chunk.
+A good strategy to prevent this problem is to split the list of song id's in "chunks" of 50 songs id's and wait 20 seconds before asking for the audio features of the next "chunk".
 Then, use this function to create a Pandas Dataframe with the audio features of the list of songs. Hint: create a dictionary with the song's audio features as keys and an **empty list as values**. 
 Then fill in the lists with the corresponding audio features of each song. Finally, create your data frame from the dictionary.
 
